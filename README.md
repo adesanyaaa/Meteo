@@ -1,0 +1,4 @@
+Meteo
+=====
+
+Android weather widget
