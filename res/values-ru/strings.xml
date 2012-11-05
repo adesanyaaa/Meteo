@@ -1,0 +1,87 @@
+<resources>
+    
+    <string name="app_name">Метео</string>
+    
+    <string name="five_days_forecast">Прогноз на 5 дней</string>
+    <string name="set_preferences">Настройки</string>
+    <string name="region">Регион</string>
+    <string name="autoRegionDetect">Автоматически</string>
+    <string name="autoRegionDetectDescr">Автоматическое определение места положения</string>
+    <string name="update">Обновление</string>    
+    <string name="updatePeriod">Период обновления</string>
+    <string name="updatePeriodDescr">Выбор периодичности обновления погодных данных</string>    
+    <string name="preferences">Настройки</string>    
+    <string name="city_pick">Выбор города</string>
+    <string name="city_pick_descr">Поможет выбрать ваш город из списка доступных</string>      
+    <string name="cities">Города</string>    
+    <string name="no_data">Нет данных, нет подключения к сети или бесплатный погодный сервер не успел ответить. Пожалуйста попробуйте позже.</string>
+    
+    <string name="no_data_short">NN</string>
+    
+    <string name="widget_4x1_name">Метео 4x1</string>
+    <string name="widget_4x2_name">Метео 4x2</string>
+    <string name="widget_4x3_name">Метео 4x3</string>
+    <string name="widget_4x4_name">Метео 4x4</string>
+    
+    <string name="waiting_for_data">Ожидание данных...</string>
+    
+    <string name="widgets_params">Настройки виджетов</string>
+    <string name="widgets_bg">Фон виджетов</string>
+    <string name="widgets_bg_descr">Отображать фон виджетов</string>
+    
+    <string name="bg_opacity">Заливка фона</string>    
+    <string name="bg_opacity_descr">Установить уровень заливки фона</string>
+    
+    <string name="defaultCity">Киев</string>
+    
+    <string name="chosen">Выбрано: </string>
+    
+    <string name="mmrtst"> мм.рт.ст.</string>
+    <string name="mps"> м/с</string>
+    
+    <string name="updated">Обновлено: </string>
+    
+    <string name="wind">Ветер </string>
+    <string name="humidity">Влажность </string>
+    <string name="preshure">Давление </string>
+    
+    <string name="today">Сегодня</string>
+    <string name="now">Сейчас</string>
+    
+    
+    <string name="morning">Утро</string>
+    <string name="day">День</string>
+    <string name="evening">Вечер</string>
+    <string name="night">Ночь</string>
+    
+    
+    <string name="sunday">Воскресенье</string>
+    <string name="monday">Понедельник</string>
+    <string name="tuesday">Вторник</string>
+    <string name="wednesday">Среда</string>
+    <string name="thursday">Четверг</string>
+    <string name="friday">Пятница</string>
+    <string name="saturday">Суббота</string>
+    
+    <string name="sun">Вс</string>
+    <string name="mon">Пн</string>
+    <string name="tue">Вт</string>
+    <string name="wed">Ср</string>
+    <string name="thu">Чт</string>
+    <string name="fri">Пт</string>
+    <string name="sat">Сб</string>
+    
+    <string name="w_0">Ясно</string>
+    <string name="w_10">Малооблачно</string>
+    <string name="w_20">Облачно</string>
+    <string name="w_30">Пасмурно</string>
+    <string name="w_40">Пасмурно, небольшой дождь</string>
+    <string name="w_50">Пасмурно, дождь</string>
+    <string name="w_60">Пасмурно, гроза</string>
+    <string name="w_70">Пасмурно, град</string>
+    <string name="w_80">Пасмурно, временами снег с дождем</string>
+    <string name="w_90">Пасмурно, временами снег</string>
+    <string name="w_100">Пасмурно, снег</string>
+    <string name="w_255">Малооблачно</string>
+    
+</resources>

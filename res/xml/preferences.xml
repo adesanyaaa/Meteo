@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    
+        <PreferenceCategory
+                android:title="@string/region">
+                <CheckBoxPreference
+                        android:title="@string/autoRegionDetect"
+                        android:defaultValue="true"
+                        android:summary="@string/autoRegionDetectDescr"
+                        android:key="regionDetectMode" />  
+                        
+                <Preference
+		                android:title="@string/city_pick"
+		                android:summary="@string/city_pick_descr"
+		                android:key="cid" />
+                
+        </PreferenceCategory>
+        
+        <PreferenceCategory
+                android:title="@string/update">
+		        <ListPreference
+                        android:title="@string/updatePeriod"
+                        android:summary="@string/updatePeriodDescr"
+                        android:key="updatePeriod"
+                        android:defaultValue="30"
+                        android:entries="@array/periodsArray"
+                        android:entryValues="@array/periodsValues" />    
+      
+        </PreferenceCategory>
+        
+        <PreferenceCategory
+                android:title="@string/widgets_params">
+		        
+            	<CheckBoxPreference
+                        android:title="@string/widgets_bg"
+                        android:defaultValue="true"
+                        android:summary="@string/widgets_bg_descr"
+                        android:key="widgetbg" />  
+            
+            
+		        <mobile.meteo.org.imps.SeekBarPreference 
+		            	android:key="bg_opacity"
+				        android:title="@string/bg_opacity"
+				        android:summary="@string/bg_opacity_descr"
+				      
+				        android:defaultValue="50"
+				        android:text=" %"
+				        android:max="100"
+				        />
+      
+        </PreferenceCategory>
+        
+</PreferenceScreen>

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"    
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:background="#7dbed7"
+        android:padding="3dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginBottom="3dp"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.2"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/short_week_day"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                
+                android:textSize="12dp"
+            	android:textColor="#ffffff"
+                
+                android:text="Суббота" />
+            
+            <TextView
+                android:id="@+id/short_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                
+                android:textSize="12dp"
+            	android:textColor="#ffffff"
+                
+                android:text="10-11" />
+            
+
+            <TextView
+                android:id="@+id/short_weather_descr"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                
+                android:textSize="12dp"
+            	android:textColor="#ffffff"
+                
+                android:text="эдаки ясно" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.26"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/short_day_temp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                
+                android:textSize="18dp"
+            	android:textColor="#ffffff"
+                
+                android:text="10" />
+
+            <TextView
+                android:id="@+id/short_night_temp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                
+                android:textSize="10dp"
+            	android:textColor="#017fbd"
+                
+                android:text="2" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.26"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/short_weather_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/d200" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.26"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/short_wind_dir"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                
+                android:textSize="13dp"
+            	android:textColor="#4f8193"
+                
+                android:text="300" />
+
+            <TextView
+                android:id="@+id/short_wind_speed"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                
+                android:textSize="13dp"
+            	android:textColor="#4f8193"
+                
+                android:text="10 м/с" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

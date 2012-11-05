@@ -1,0 +1,77 @@
+<resources>
+    
+    <string name="app_name">Meteo</string>    
+	<string name="five_days_forecast">5 Days Forecast</string>
+	<string name="set_preferences">Settings</string>
+	<string name="region">Region</string>
+	<string name="autoRegionDetect">Automatic</string>
+	<string name="autoRegionDetectDescr">Automatic LOCATION</string>
+	<string name="update">Update</string>
+	<string name="updatePeriod">Update Period</string>
+	<string name="updatePeriodDescr">Select the update weather data</string>
+	<string name="preferences">Settings</string>
+	<string name="city_pick">Select City</string>
+	<string name="city_pick_descr">help you select your city from the list</string>
+	<string name="cities">Cities</string>
+	<string name="no_data">No data, no connection to the network or free weather server connection timeout. Please try later</string>
+	
+	<string name="no_data_short">NN</string>
+	
+	<string name="widget_4x1_name">Meteo 4x1</string>
+	<string name="widget_4x2_name">Meteo 4x2</string>
+	<string name="widget_4x3_name">Meteo 4x3</string>
+	<string name="widget_4x4_name">Meteo 4x4</string>
+	
+	<string name="waiting_for_data">Waiting for data ...</string>
+	<string name="widgets_params">Widget settings</string>
+	<string name="widgets_bg">Widgets background</string>
+	<string name="widgets_bg_descr">Show background widgets</string>
+	<string name="bg_opacity">Background fill</string>
+	<string name="bg_opacity_descr">Set the level of the fill background</string>
+	<string name="defaultCity">Kiev</string>  
+	
+	<string name="chosen">Selected:</string>
+	<string name="mmrtst">mmHg</string>
+	<string name="mps">m/s</string>
+	<string name="updated">Updated:</string>
+	<string name="wind">Wind </string>
+	<string name="humidity">Humidity</string>
+	<string name="preshure">Pressure</string>
+	
+	<string name="today">Today</string>
+	<string name="now">Now</string>
+	<string name="morning">Morning</string>
+	<string name="day">Day</string>
+	<string name="evening">Evening</string>
+	<string name="night">Night</string>
+	
+	<string name="sunday">Sunday</string>
+	<string name="monday">Monday</string>
+	<string name="tuesday">Tuesday</string>
+	<string name="wednesday">Wednesday</string>
+	<string name="thursday">Thursday</string>
+	<string name="friday">Friday</string>
+	<string name="saturday">Saturday</string>
+	<string name="sun">Sun</string>
+	<string name="mon">Mon</string>
+	<string name="tue">Tues</string>
+	<string name="wed">Wed</string>
+	<string name="thu">Thurs</string>
+	<string name="fri">Fri</string>
+	<string name="sat">Sat</string>
+	<string name="w_0">Clear</string>
+	<string name="w_10">cloudy</string>
+	<string name="w_20">Clear</string>
+	<string name="w_30">Clear</string>
+	<string name="w_40">cloudy, light rain</string>
+	<string name="w_50">cloudy, light rain</string>
+	<string name="w_60">Thunderstorm</string>
+	<string name="w_70">cloudy, hail</string>
+	<string name="w_80">cloudy, snow showers and rain</string>
+	<string name="w_90">cloudy, light snow</string>
+	<string name="w_100">cloudy, snow</string>
+	<string name="w_255">cloudy</string>
+	
+	
+	
+</resources>

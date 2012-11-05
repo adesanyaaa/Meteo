@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+<string-array name="periodsArray">
+   <item>30 минут</item>
+   <item>1 час</item>
+   <item>2 часа</item>
+   <item>4 часа</item>
+   <item>8 часов</item>
+   <item>16 часов</item>
+   <item>24 часа</item>
+</string-array>
+ 
+<string-array name="periodsValues">
+   <item>30</item>
+   <item>60</item>
+   <item>120</item>
+   <item>240</item>
+   <item>480</item>
+   <item>960</item>
+   <item>1440</item>   
+</string-array>
+</resources>

@@ -1,0 +1,23 @@
+<resources>
+
+    <style name="AppTheme" parent="android:Theme.Light" />
+    
+    <style name="waiting_for_data_text" parent="@android:style/TextAppearance">  
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>   
+        <item name="android:textColor">#ffffff</item> 
+        <item name="android:textSize">14dp</item> 
+    </style>
+    
+    <style name="w4x1_weather_params" parent="@android:style/TextAppearance">  
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>   
+        <item name="android:textColor">#ffffff</item> 
+        <item name="android:textSize">10dp</item> 
+        <item name="android:drawablePadding">5dp</item> 
+        <item name="android:gravity">center</item>   
+        <item name="android:paddingTop">2dp</item>
+        <item name="android:paddingBottom">2dp</item>
+    </style>
+
+</resources>

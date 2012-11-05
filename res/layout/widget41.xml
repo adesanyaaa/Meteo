@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="294dp"
+    android:layout_height="72dp"    
+    android:layout_margin="3dp"
+     >
+     
+    <ImageView
+            android:id="@+id/widget_bg"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:scaleType="fitXY"  
+             />
+
+    <LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"	
+    android:orientation="horizontal"    
+    android:layout_margin="2dp"
+     >
+
+    <LinearLayout
+        android:id="@+id/w_4x1_city_icon"
+        android:layout_width="70dp"
+        android:layout_height="fill_parent"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/w_city"
+            android:layout_width="70dp"
+            android:layout_height="16dp"
+            android:textColor="#ffffff"
+            
+            android:shadowColor="#000000"
+            android:shadowRadius="1"
+            
+            android:gravity="center"
+            
+            android:text="Киев" />
+
+        <ImageView
+            android:id="@+id/w_weatherIcon"
+            android:layout_width="60dp"
+            android:layout_height="55dp"      
+             />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/w_4x1_temps"
+        android:layout_width="80dp"
+        android:layout_height="fill_parent"
+        android:gravity="center"
+        android:layout_marginLeft="6dp"
+        android:layout_marginRight="9dp"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/w_temp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+            android:textSize="30dp"
+            
+            android:shadowColor="#000000"
+            android:shadowRadius="1"
+            
+            android:text=""/>
+
+        <TextView
+            android:id="@+id/w_nextTemp"
+            android:layout_width="wrap_content"            
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+            android:textSize="11dp"
+            
+            android:shadowColor="#000000"
+            android:shadowRadius="1"
+            
+            
+            android:text="" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/w_4x1_city_weather_temps"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:gravity="center|right"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/update_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="9dp"
+            android:textColor="#ffffff"
+            
+            android:shadowColor="#000000"
+            android:shadowRadius="1"
+            
+            
+            android:text="" />
+
+        <LinearLayout
+            android:id="@+id/linearLayout_wParams"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+            
+            <TextView
+                android:id="@+id/w_wind"
+                
+                android:shadowColor="#000000"
+            android:shadowRadius="1"
+                
+                style="@style/w4x1_weather_params" 
+                android:drawableLeft="@drawable/wind" />            
+
+            <TextView
+                android:id="@+id/w_wet"
+                style="@style/w4x1_weather_params" 
+                
+                android:shadowColor="#000000"
+            android:shadowRadius="1"
+                android:drawableLeft="@drawable/drop" />     
+                
+            <TextView
+                android:id="@+id/w_preshure"
+                style="@style/w4x1_weather_params" 
+                
+                android:shadowColor="#000000"
+            android:shadowRadius="1"
+                android:drawableLeft="@drawable/presh" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout4"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:gravity="bottom|right" >
+
+        <ImageView
+            android:id="@+id/update_widget"
+            android:layout_width="20dp"
+            android:layout_height="18dp"
+            android:layout_marginLeft="6dp"
+            android:src="@drawable/update" />
+
+    </LinearLayout>
+
+</LinearLayout>
+
+</RelativeLayout>

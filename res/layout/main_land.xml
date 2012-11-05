@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e6f3f9"
+    android:orientation="horizontal" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <mobile.meteo.org.imps.WeatherScopeView
+            android:id="@+id/scope_temp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:id="@+id/update_btn_land"            
+            
+            android:layout_width="35dp"
+            android:layout_height="35dp" 
+              
+            android:layout_marginTop="10dp"  
+            android:layout_marginRight="10dp"  
+                    
+            android:layout_alignParentTop="true"  
+            android:layout_alignParentRight="true"    
+            
+            android:src="@drawable/update_btn" />
+        
+        <ImageView
+            android:id="@+id/settings_btn_land"            
+            
+            android:layout_width="35dp"
+            android:layout_height="35dp" 
+              
+            android:layout_marginTop="10dp"  
+            android:layout_marginRight="55dp"  
+                    
+            android:layout_alignParentTop="true"  
+            android:layout_alignParentRight="true"    
+            
+            android:src="@drawable/settings_btn" />
+        
+        <ImageView
+            android:id="@+id/btn_land_wet"            
+            
+            android:layout_width="35dp"
+            android:layout_height="35dp" 
+              
+            android:layout_marginTop="10dp"  
+            android:layout_marginRight="100dp"  
+                    
+            android:layout_alignParentTop="true"  
+            android:layout_alignParentRight="true"    
+            
+            android:src="@drawable/wet_btn" />
+        
+        <ImageView
+            android:id="@+id/btn_land_presh"            
+            
+            android:layout_width="35dp"
+            android:layout_height="35dp" 
+              
+            android:layout_marginTop="10dp"  
+            android:layout_marginRight="145dp"  
+                    
+            android:layout_alignParentTop="true"  
+            android:layout_alignParentRight="true"    
+            
+            android:src="@drawable/presh_btn" />
+        
+        <ImageView
+            android:id="@+id/btn_land_temp"            
+            
+            android:layout_width="35dp"
+            android:layout_height="35dp" 
+              
+            android:layout_marginTop="10dp"  
+            android:layout_marginRight="190dp"  
+                    
+            android:layout_alignParentTop="true"  
+            android:layout_alignParentRight="true"    
+            
+            android:src="@drawable/temp_btn" />
+
+        <TextView
+            android:id="@+id/current_city_land"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            
+            android:layout_marginTop="10dp"  
+            android:layout_marginLeft="10dp"  
+            
+            android:textSize="20dp"
+	        android:textColor="#017fbd"
+            
+            android:layout_alignParentTop="true"  
+            android:layout_alignParentLeft="true"  
+            
+            android:text="Киев" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            
+            android:layout_marginTop="35dp"  
+            android:layout_marginLeft="10dp"  
+            
+            android:textSize="12dp"
+	        android:textColor="#797979"
+            
+            android:layout_alignParentTop="true"  
+            android:layout_alignParentLeft="true"  
+            
+            android:text="@string/five_days_forecast" />
+
+    </RelativeLayout>
+
+</LinearLayout>
